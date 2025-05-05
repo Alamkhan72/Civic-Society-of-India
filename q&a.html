@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Q&A - Civic Society India</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00695c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #004d40;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #00796b;
+    }
+    form textarea, form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+    .question-box {
+      background-color: #e0f2f1;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ask & Answer - Civic Society India</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="blog.html">Blog</a>
+  <a href="qa.html">Q&A</a>
+  <a href="suggestions.html">Suggestions</a>
+  <a href="profile.html">Profile</a>
+</nav>
+
+<main>
+  <h2>Post a Civic-Related Question</h2>
+  <form onsubmit="alert('Question posted (static)! In future, will connect to backend.'); return false;">
+    <textarea rows="4" placeholder="What's your question about civic issues?"></textarea>
+    <button type="submit">Post Question</button>
+  </form>
+
+  <h2>Recent Questions</h2>
+  <div class="question-box">
+    <p><strong>Q:</strong> How can we report illegal garbage dumping in our area?</p>
+    <p><strong>A:</strong> You can approach your local municipal office or call the helpline. Our upcoming tool will help you report such violations digitally.</p>
+  </div>
+  <div class="question-box">
+    <p><strong>Q:</strong> Is littering a punishable offense in India?</p>
+    <p><strong>A:</strong> Yes, municipal laws impose fines for littering. Awareness and enforcement are both crucial to stop it.</p>
+  </div>
+</main>
+
+</body>
+</html>
+
