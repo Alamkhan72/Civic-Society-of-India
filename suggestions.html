@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suggestions - Civic Society</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Civic Society</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="qa.html">Q&A</a></li>
+        <li><a href="suggestions.html" class="active">Suggestions</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="suggestions">
+      <h2>Share Your Suggestion or Experience</h2>
+      <p>Have an idea, observation or experience to improve civic life? Share it here and inspire others.</p>
+
+      <form action="https://formspree.io/f/mayzqzek" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Your Email (optional):</label>
+        <input type="email" name="email">
+
+        <label for="message">Your Suggestion:</label>
+        <textarea name="message" rows="6" required></textarea>
+
+        <button type="submit">Submit Suggestion</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Civic Society India. All rights reserved.</p>
+  </footer>
+</body>
+</html>
