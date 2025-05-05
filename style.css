@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+header {
+  background-color: #005a87;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+nav li {
+  margin: 0 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav a.active,
+nav a:hover {
+  background-color: #0079b8;
+}
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+footer {
+  background-color: #005a87;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+.blog-post {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.blog-post h2 {
+  color: #005a87;
+}
+.like-share-comment {
+  margin-top: 20px;
+  text-align: center;
+}
+.like-share-comment button {
+  background-color: #0079b8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.like-share-comment button:hover {
+  background-color: #005a87;
+}
